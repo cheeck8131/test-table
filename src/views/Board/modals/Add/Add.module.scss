@@ -1,0 +1,30 @@
+.add {
+  position: absolute;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  height: 100vh;
+  text-align: center;
+
+  div {
+    padding: 2vh;
+    background: #a14b00;
+    width: min(100%, 80vh);
+    border-radius: 4vh;
+    margin: 15vh auto;
+  }
+
+  button {
+    margin: auto;
+    background: #d4711a;
+    width: 100%;
+    margin-top: 2vh;
+    height: 5vh;
+    border-radius: 2.5vh;
+    border: none;
+    color: white;
+    font-size: 2vh;
+  }
+}

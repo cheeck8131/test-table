@@ -1,0 +1,33 @@
+body {
+  background: #a09184;
+  color: white;
+  font-family: Helvetica, sans-serif, Arial;
+  margin: 0;
+  padding: 0;
+}
+
+.add {
+  margin: 1vh;
+  width: min(5vh, 5vw);
+  filter: invert(1);
+}
+
+.board {
+  display: grid;
+  margin: auto;
+  width: min(100%, 100vh);
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5%;
+
+  .col {
+    padding: 1vh;
+    background: #ff7800;
+    border-radius: 3vh;
+
+    .header {
+      margin-bottom: 1vh;
+      text-align: center;
+      font-size: 2.3vh;
+    }
+  }
+}
